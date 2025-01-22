@@ -47,7 +47,7 @@ public class CardTrick {
         luckyCard.setSuit("Clubs");
 
         for(int i = 0; i <magicHand.length; i++){
-             if(luckyCard[i].getValue()==magicHand[i].getValue()&& luckyCard[i].getSuit()==magicHand[i].getSuit()){
+             if(luckyCard.getValue()==magicHand[i].getValue()&& luckyCard.getSuit()==magicHand[i].getSuit()){
                  res = 1;
                  break;
              }
